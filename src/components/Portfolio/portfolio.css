@@ -1,0 +1,87 @@
+.flex {
+    display: flex;
+}
+
+.Mt {
+    margin-top: 100px;
+}
+
+.Mx {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.container {
+    width: 600px;
+}
+
+.sectionHeaderStyle {
+    color: #94A3B8;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1rem;
+    text-decoration: none;
+    transition: padding-left 0.3s ease; /* Smooth transition for padding changes */
+}
+
+/* App.css */
+ul {
+    list-style: none; /* Remove default list-style */
+    padding: 0; /* Remove default padding */
+}
+
+ul li {
+    position: relative;
+}
+
+.start {
+    align-self: flex-start;
+    position: sticky;
+    top: 100px;
+    width: 300px;
+}
+
+.Mb40 {
+    margin-bottom: 80px;
+}
+
+ul li:hover::before {
+    width: 80px;
+}
+
+ul li a.selected,
+ul li:hover .sectionHeaderStyle {
+    padding-left: 30px;
+    color: #E2E8F0;
+}
+
+.iconsClass {
+    margin-top: 200px;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.socialIcon {
+    color: #E2E8F0;
+}
+
+.Mb20 {
+    margin-bottom: 20px;
+}
+
+.resume {
+    font-size: 1.1rem;
+    padding-top: 20px;
+}
+
+.resume :hover {
+    color: #59DED3;
+}
+
+.resumeIcon {
+    margin-left: 10px;
+}

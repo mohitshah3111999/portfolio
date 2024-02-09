@@ -1,0 +1,19 @@
+.personal-info-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+.full-name {
+    font-weight: 700;
+    color: #D7E0EE;
+    font-size: 3rem;
+}
+
+.designation {
+    font-weight: 700;
+    color: #E2E8F0;
+    font-size: 1.2rem;
+}

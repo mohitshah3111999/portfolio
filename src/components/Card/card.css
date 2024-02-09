@@ -1,0 +1,78 @@
+.hoverBox {
+    border: 1px solid transparent;
+    transition: border-color 0.3s, background-color 0.3s, box-shadow 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.hoverBox:hover {
+    border-radius: 10px;
+    background-color: rgba(23, 39, 80, 0.6);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.8);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.font-color {
+    color: #E2E8F0;
+}
+
+.cardHeaderStyle {
+    color: #E2E8F0;
+    font-weight: 700;
+    line-height: 1rem;
+    text-decoration: none;
+}
+
+.sectionDetail {
+    padding-top: 10px;
+    line-height: 1rem;
+    font-size: 0.8em;
+}
+
+.technology {
+    padding: 6px;
+    border-radius: 15px;
+    background-color: #142A3A !important;
+    color: #59DED3;
+    font-size: 0.75rem;
+}
+
+.hoverBox:hover .cardHeaderStyle {
+    color: #59DED3;
+}
+
+.Mr {
+    margin-right: 5px;
+}
+
+.workDate {
+    font-size: 0.85rem;
+    color: #64748B;
+    white-space: nowrap;
+    padding-top: 5px;
+    padding-left: 10px;
+    min-width: 150px;
+    align-self: flex-start;
+}
+
+.M20 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Mt10 {
+    margin-top: 10px;
+}
+
+.hoverBox {
+    transition: all 0.3s ease-in-out;
+}
+
+.hoverBox:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
